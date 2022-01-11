@@ -1,9 +1,43 @@
+:root{
+  --primaria: #A2368C;
+  --secundaria: #FFCC00;
+  --cinzaBackground: #F0F3F5;
+  --cinzaBorder: rgba(149, 149, 149, 0.4);
+  --cinzaDisabled: rgba(100, 100, 100, 0.075);
+  --cinzaHead: #F7F7F7;
+  --cinzaHover: #F1F2F7;
+  --cinzaShadow: rgba(0, 0, 0, 0.1);
+  --cinzaComentario: #A6A6A5;
+  --verdeClaro: #00E36F;
+  --vermelhoClaro: #be0106;
+  --vermelhoEscuro: #490507;
+  --roxo: #A63891;
+  --roxoClaro: #585d9f;
+  --roxoEscuro: #031526;
+  --screenHeight: calc(100vh - 75px);
+  --verdeSaldo: #22A200;
+  --vermelhoSaldo: #C32C31;
+  --roxoBoxShadow: #50037c;
+  --verdePlusButton: #23B33A;
+  --verdeButtonFinalizar:#22a200;
+  --verdeShadowButton:#1b8000;
+  --border:rgba(0,0,0,0.3);
+  /* VARIAVEIS TIMEKEEPER */
+  --top-selected-color: var(--primaria);
+  --hand-line-color: var(--primaria);
+  --hand-circle-center: var(--primaria);
+  --hand-circle-outer: var(--primaria);
+  --hand-minute-circle: var(--roxoEscuro);
+}
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #ffffff;
+  text-align: center;
+  overflow-x: hidden;
 }
 
 a {
@@ -13,4 +47,35 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+button{
+  cursor: pointer;
+  -webkit-touch-callout: none;  /* iPhone OS, Safari */
+  -webkit-user-select: none;    /* Chrome, Safari 3 */
+  -khtml-user-select: none;     /* Safari 2 */
+  -moz-user-select: none;       /* Firefox */
+  -ms-user-select: none;        /* IE10+ */
+  user-select: none;
+}
+
+thead {
+  -webkit-touch-callout: none;  /* iPhone OS, Safari */
+  -webkit-user-select: none;    /* Chrome, Safari 3 */
+  -khtml-user-select: none;     /* Safari 2 */
+  -moz-user-select: none;       /* Firefox */
+  -ms-user-select: none;        /* IE10+ */
+  user-select: none;
+}
+
+@media(max-width: 1080px){
+  html{
+    font-size: 93.75%;
+  }
+}
+
+@media(max-width: 720px){
+  html{
+    font-size: 87.5%;
+  }
 }
