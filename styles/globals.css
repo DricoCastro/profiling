@@ -1,26 +1,8 @@
 :root{
-  --primaria:#7cc6fe;;
-  --secundaria: #FFCC00;
+  --primaria:#00562c;
+  --secundaria: #099848;
   --cinzaBackground: #F0F3F5;
-  --cinzaBorder: rgba(149, 149, 149, 0.4);
-  --cinzaDisabled: rgba(100, 100, 100, 0.075);
-  --cinzaHead: #F7F7F7;
-  --cinzaHover: #F1F2F7;
-  --cinzaShadow: rgba(0, 0, 0, 0.1);
-  --cinzaComentario: #A6A6A5;
-  --verdeClaro: #00E36F;
-  --vermelhoClaro: #be0106;
-  --vermelhoEscuro: #490507;
-  --roxo: #A63891;
-  --roxoClaro: #585d9f;
-  --roxoEscuro: #031526;
-  --screenHeight: calc(100vh - 75px);
-  --verdeSaldo: #22A200;
-  --vermelhoSaldo: #C32C31;
-  --roxoBoxShadow: #50037c;
-  --verdePlusButton: #23B33A;
-  --verdeButtonFinalizar:#22a200;
-  --verdeShadowButton:#1b8000;
+  --boxSahdow:  rgba(0, 0, 0, 0.75);
   --border:rgba(0,0,0,0.3);
   /* VARIAVEIS TIMEKEEPER */
   --top-selected-color: var(--primaria);

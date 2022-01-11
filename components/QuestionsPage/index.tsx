@@ -1,7 +1,6 @@
 import ProfilingTest from "@data/dataHome";
 import styles from './Index.module.css'
 
-
 const itemsProfilingTest = ProfilingTest.questions.map((questions) =>
     <div className={styles.cardQuestions}>
         <div className={styles.holderNumberAndAsk} key={questions.key}>
@@ -25,6 +24,9 @@ const itemsProfilingTest = ProfilingTest.questions.map((questions) =>
 export default function QuestionsTest() {
     return (
         <div className={styles.body}>
+            <div className={styles.holderTitle}>
+                <h1>Mapeamento de Perfil</h1>
+            </div>
             {itemsProfilingTest}
         </div>
     )
